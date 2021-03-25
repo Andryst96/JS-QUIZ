@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+:root {
+    background-color: #0D0D0D;    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: "Comfortaa", sans-serif;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #F2B950;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.btn {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #0D0D0D;
+    background: linear-gradient(90deg, #F2BE50, #F2D150);
+    border-radius: 1px;
+}
+.btn:hover {
+    cursor:pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0.4rem 1.4rem 0 #8C7456;
+    color: #0D0D0D;
+    background: linear-gradient(90deg, #FFFFFF, #FFFFCC);
+    transition: all .15s ease-in-out;
+}
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/*end page*/
+.end-form-container{
+    width: 100%;
+    display: flex;
+    color: #F2B950;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+input {
+    margin-bottom: 2.8rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 #8C7456;
+}
+
+input::placeholder {
+    color: #8C7456;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.fa-play { 
+margin-left:  1rem; 
+font-size: 2.5rem; 
+color: #0D0D0D;
+}
+.fa-home { 
+margin-left:  1rem; 
+font-size: 2.5rem; 
+color: #0D0D0D;
+}
+.fa-fort-awesome { 
+margin-left:  1rem; 
+font-size: 2.5rem; 
+color: #0D0D0D;
+}
+.fa-save { 
+margin-left:  1rem; 
+font-size: 2.5rem; 
+color: #0D0D0D;
+}
+
+
+

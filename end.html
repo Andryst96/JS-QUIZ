@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/da6ad3f417.js" crossorigin="anonymous"></script>
+</head>
+<title>
+    End
+</title>
+<body>
+   <div class="container">
+     <div id="end" class="flex-center flex-column">
+         <h1 id='finalScore'>0</h1>
+        <form class="end-form-container">
+            <h2 id="end-text">Napiš své jméno pro uložení skóre!</h2>
+            <input type="text" name='name' id='username' placeholder="Vlož své jméno">
+            <button class="btn" id="saveScoreBtn" type="submit" onclick='saveHighScore(event)' disabled>Ulož<i class="far fa-save"></i></button>
+            
+        </form>
+        <a href="game.html" class="btn">Hrát znovu <i class="fas fa-play"></i></a>
+        <a href="index.html" class="btn">Domů <i class="fas fa-home"></i></a>
+     </div>  
+   </div>
+    <script src="end.js"></script>
+</body>
+</html>

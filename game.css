@@ -1,0 +1,85 @@
+body {
+    color: #F2B950;
+    
+}
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 1px;
+    background: linear-gradient(90deg, #F2BE50, #F2D150);   
+    font-size: 2.8rem;
+    min-width: 80rem;
+    color: #0D0D0D;       
+}
+.choice-container:hover {
+    cursor:pointer;
+    transform: scale(1.01);
+    box-shadow: 0 0.4rem 1.4rem 0 #8C7456;
+    color: #0D0D0D;
+    background: linear-gradient(90deg, #FFFFFF, #FFFFCC);
+    transition: all .15s ease-in-out;
+}
+
+.choice-prefix {
+    padding: 3rem 0 3rem 1rem;
+    font-weight: 1000;
+}
+
+.choice-text {
+    padding: 3rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(31deg, #7FB503, #93A603);
+}
+
+.incorrect {
+    background: linear-gradient(31deg, #FF1D05, #F24405);
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center
+}
+
+#progressBar {
+    width: 10rem;
+    height: 4rem;
+    border: 0.2rem solid #93A603;
+    border-radius: 1000px;
+    margin-top: 2rem;
+    overflow: hidden;    
+}
+
+#progressBarFull {
+    height: 100%;
+    background: #93A603;
+    width: 0%;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 0.2rem;
+}
+
+
+@media screen and (max-width:800px) {
+    .choice-container{ 
+        min-width: 40rem;
+    }
+}
